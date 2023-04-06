@@ -1,6 +1,6 @@
 const Config = {
     url: import.meta.env.PROD 
-        ? 'https://sungem.herokuapp.com/'
+        ? 'https://sungem.tinycloud.live/'
         : 'http://127.0.0.1:8000/'
 }
 

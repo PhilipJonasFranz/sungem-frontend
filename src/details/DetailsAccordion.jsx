@@ -6,19 +6,19 @@ export const DetailsAccordion = ({ module }) => (
         <Accordion multiple>
             <LinebreakAcccordionPanel
                 label='Lerninhalt'
-                content={module.content}
+                content={module.kurs.content}
             />
             <LinebreakAcccordionPanel
                 label='Qualifikationsziele / Lernergebnisse'
-                content={module.qualification}
+                content={module.kurs.qualification}
             />
             <LinebreakAcccordionPanel
                 label='Voraussetzungen für die Teilnahme'
-                content={module.requirements}
+                content={module.kurs.requirements}
             />
             <LinebreakAcccordionPanel
                 label='Prüfungsform'
-                content={module.exam}
+                content={module.kurs.exam}
             />
         </Accordion>
     </Box>
