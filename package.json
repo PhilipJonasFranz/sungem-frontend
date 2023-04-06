@@ -9,7 +9,8 @@
     "serve": "vite preview",
     "prettier": "prettier --write .",
     "predeploy": "yarn build && cp CNAME dist/CNAME",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "docker": "docker build . -t sungem-frontend"
   },
   "dependencies": {
     "@emotion/react": "^11.4.1",
